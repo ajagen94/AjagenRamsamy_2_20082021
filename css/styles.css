@@ -96,7 +96,8 @@
                         width: 50px;
                         margin-left: -2px;} 
         
-        .logo:hover{    color:black;}
+        .logo:hover{    color:#DEEBFF;
+                        background-color: #0065FC;}
 
 
         .filtre{        display: flex;
