@@ -81,7 +81,7 @@
                         justify-content: space-between;
                         align-items: center;
                         height: 48px;
-                        margin-left: 30px;
+                        margin-left: 40px;
                         margin-right: 20px;
                         border:solid 2px #F2F2F2;
                         border-radius: 25px;}
@@ -163,7 +163,7 @@
         
                         }
 
-        .element {      border: solid 3px white;
+        .element {      border: solid 4px white;
                         border-radius: 20px;
                         background-color: white;
                         width:250px;
@@ -210,10 +210,10 @@
         .etoilepop{     margin-top:40px;
                         padding-bottom: 10px;}
 
-        .flottant{      float:left;
+        .imgpop{      float:left;
                         width:120px;
                         height:120px;
-                        border: solid 3px white;
+                        border: solid 4px white;
                         border-top-left-radius: 20px;
                         border-bottom-left-radius: 20px;}
 
