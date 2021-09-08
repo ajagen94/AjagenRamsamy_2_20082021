@@ -1,6 +1,14 @@
         @font-face {    font-family: 'Raleway';
                         src: url(raleway/Raleway-Regular.ttf);}
 
+        @media handheld and (max-width:400px;){
+                        nav{flex-direction: column;}
+                        section#lieu{flex-direction: column;}
+                        #hebergement{height: auto;
+                                        flex-direction: column;}
+                        .plan{flex-direction:column; font-size:10px;}
+                        }
+
         body{           background-color:white;font-family:Raleway;}
         
         #conteneur{     width:100%;margin:auto;}
