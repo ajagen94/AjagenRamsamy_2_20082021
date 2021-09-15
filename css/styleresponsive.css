@@ -1,0 +1,12 @@
+@media all and(max-width: 420px){
+    #lieu{  display:flex;
+            flex-direction: column-reverse;
+         }
+
+    #blocimg{   flex-wrap: nowrap;
+                flex-direction: column;
+            }
+
+    .plan{  flex-direction: column;
+         }
+}
