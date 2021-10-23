@@ -26,19 +26,31 @@
     
         .bordurelien {
             height: 60px;
-            width:180px;
-            margin-left: -180px;
-            border-top: none;
-            border-bottom: solid 2px #0065FC;
-        }
-    
-        .bordurelien2 {
-            height: 60px;
-            width:180px;
+            width:185px;
+            margin-left: -155px;
             border-top: none;
             border-bottom: solid 2px #F2F2F2;
         }
     
+        .bordurelien2 {
+            height: 60px;
+            width:185px;
+            border-top: none;
+            border-bottom: solid 2px #F2F2F2;
+        }
+        
+        .bordurelien:hover{ border-top: none;
+            border-bottom:solid 2px #0065FC;
+            cursor: pointer;}
+
+        .bordurelien:visited {color:#0065FC;}
+
+        .bordurelien2:hover{ border-top: none;
+            border-bottom:solid 2px #0065FC;
+            cursor: pointer;}
+
+        .bordurelien2:visited {color:#0065FC;}
+
         #liens {
             flex-direction: column-reverse;
             margin-left: -35px;

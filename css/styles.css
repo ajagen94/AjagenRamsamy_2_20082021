@@ -18,7 +18,7 @@
                         justify-content: center;
                         align-items: center;
                         height: 64px;
-                        border-top: solid 2px #0065FC;}
+                        border-top: solid 2px #F2F2F2;}
 
         .bordurelien2{  display: flex;
                         justify-content: center;
@@ -26,6 +26,16 @@
                         height: 64px;
                         border-top: solid 2px #F2F2F2;
                         }
+
+        .bordurelien:hover{ border-top:solid 2px #0065FC;
+                        cursor: pointer;}
+        
+        .bordurelien:visited {color:#0065FC;}
+
+        .bordurelien2:hover{ border-top:solid 2px #0065FC;
+                cursor: pointer;}
+
+        .bordurelien2:visited {color:#0065FC;}
 
         #liens{         display:flex;
                         justify-content: center;
@@ -147,8 +157,8 @@
         #hebergement{   display:flex;
                         flex-wrap: wrap;
                         flex-direction: column;
-                        height:600px;
-                        font-size:10px;
+                        height: 600 px;
+                        font-size: 10px;
                         background-color:#fff;
                         border-radius: 20px;
                         background-color: #F2F2F2;
