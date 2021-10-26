@@ -157,7 +157,7 @@
         #hebergement{   display:flex;
                         flex-wrap: wrap;
                         flex-direction: column;
-                        height: 600 px;
+                        height: 600px;
                         font-size: 10px;
                         background-color:#fff;
                         border-radius: 20px;
