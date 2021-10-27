@@ -33,7 +33,7 @@
         .bordurelien:visited {color:#0065FC;}
 
         .bordurelien2:hover{ border-top:solid 2px #0065FC;
-                cursor: pointer;}
+                        cursor: pointer;}
 
         .bordurelien2:visited {color:#0065FC;}
 
@@ -173,7 +173,8 @@
         
         .imageheberge{  width:100%;
                         height: 100px;
-                        border-radius: 20px 20px 0px 0px;}
+                        border-radius: 20px 20px 0px 0px;
+                        cursor: pointer;}
         
         .blocimg{       display: flex;
                         flex-wrap: wrap;
@@ -242,7 +243,8 @@
                         height:120px;
                         border: solid 4px white;
                         border-top-left-radius: 20px;
-                        border-bottom-left-radius: 20px;}
+                        border-bottom-left-radius: 20px;
+                        cursor: pointer;}
 
         .etoilebleu{    color: #0065FC;}
         .etoilegrise{   color:#F2F2F2;}
@@ -274,12 +276,14 @@
         .imgactiv{      width:100%;
                         height:150px; 
                         border-top-right-radius: 20px;
-                        border-top-left-radius: 20px;}
+                        border-top-left-radius: 20px;
+                        cursor: pointer;}
 
         .imgactivbis{   width:100%;
                         height: 370px;
                         border-top-right-radius: 20px;
-                        border-top-left-radius: 20px;}
+                        border-top-left-radius: 20px;
+                        cursor: pointer;}
         
 
         .bloc{          width:300px;
