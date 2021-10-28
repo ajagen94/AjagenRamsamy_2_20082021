@@ -41,6 +41,29 @@
         border-bottom: solid 2px #F2F2F2;
     }
 
+
+/*iphone 8plus*/
+@media  all and (min-width:400px) and (max-width:560px) {
+    .bordurelien {
+        height: 60px;
+        width: 205px;
+        margin-left: -195px;
+        border-top: none;
+        border-bottom: solid 2px #F2F2F2;
+    }
+
+    .bordurelien2 {
+        height: 60px;
+        width: 205px;
+        border-top: none;
+        border-bottom: solid 2px #F2F2F2;
+    }
+}
+
+
+
+
+
     .bordurelien:hover {
         border-top: none;
         border-bottom: solid 2px #0065FC;

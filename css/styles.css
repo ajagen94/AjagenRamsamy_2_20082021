@@ -156,6 +156,7 @@
                 border: solid 2px #F2F2F2;
                 border-radius: 25px;
         }
+        .icone:hover{background-color: violet;}
 
         .logo {
                 display: flex;
@@ -264,6 +265,7 @@
                 margin-left: 20px;
                 margin-right: 10px;
                 margin-bottom: 20px;
+                cursor: pointer;
         }
 
         #populaire {
@@ -309,6 +311,7 @@
                 margin-bottom: 20px;
                 width: 320px;
                 height: 128px;
+                cursor: pointer;
         }
 
         .textpop {
@@ -390,6 +393,7 @@
                 height: 420px;
                 border-radius: 20px;
                 box-shadow: 5px 5px 5px 1px #F2F2F2;
+                cursor: pointer;
         }
 
         .blocbis {
@@ -400,6 +404,7 @@
                 margin-left: 5px;
                 border-radius: 20px;
                 box-shadow: 5px 5px 5px 1px #F2F2F2;
+                cursor: pointer;
         }
 
         .double {
