@@ -1,4 +1,4 @@
-@media all and (min-width: 460px) and (max-width:1366px) {
+@media all and (min-width: 700px) and (max-width:1366px) {
     body {
         background-color: white;
         font-family: Raleway;
@@ -429,4 +429,146 @@
         margin-left: 20px;
         margin-top: 20px;
     }
+}
+
+@media all and (min-width: 460px) and (max-width:700px) {
+    .filtre {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        width: auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        margin-right: 10px;
+        font-weight: bold;
+        justify-content: center;
+    }
+
+    #lieu {
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    #hebergement {
+        flex-wrap: nowrap;
+        height: 1500px;
+        width: auto;
+        margin-left: 30px;
+        font-size: 10px;
+        border-radius: 20px;
+        background-color: #F2F2F2;
+    } 
+
+
+    .heberge {
+        display: flex;
+        margin-top: 20px;
+        margin-left: 10px;
+        font-size: 22px;
+
+    }
+
+
+    .imageheberge {
+        height: 120px;
+
+    }
+
+    .blocimg {
+        flex-wrap: nowrap;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 0px;
+        width: auto;
+
+    }
+
+    #populaire {
+        display: flex;
+        height: 600px;
+        margin-top: 50px;
+        margin-left: 30px;
+        margin-right: 50px;
+        flex-direction: column;
+        font-size: 10px;
+        width: auto;
+        border-radius: 20px;
+        background-color: #F2F2F2;
+        color: black;
+    }
+
+    #activite {
+        font-family: Raleway;
+        color: black;
+        margin-top: 50px;
+        margin-left: 25px;
+        margin-right: 25px;
+        height: 175px;
+    }
+
+    #articlebas {
+
+        flex-direction: column;
+    }
+
+    #articlebas {
+
+        flex-direction: column;
+        align-items: center;
+        justify-content: normal;
+        width: auto;
+        height: 500px;
+        margin-left: -15px;
+
+    }
+
+
+
+    .imgactiv {
+        width: 100%;
+        height: 150px;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+    }
+
+    .imgactivbis {
+        width: 100%;
+        height: 150px;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+    }
+
+
+    .bloc {
+        width: 310px;
+        height: 200px;
+        margin-bottom: 20px;
+        border-radius: 20px;
+        box-shadow: 5px 5px 5px 1px #F2F2F2;
+    }
+
+    .blocbis {
+        width: 310px;
+        height: 200px;
+        margin-left: -5px;
+        margin-bottom: 20px;
+        border-radius: 20px;
+        box-shadow: 5px 5px 5px 1px #F2F2F2;
+    }
+
+    .plan {
+        flex-direction: column;
+        height: 550px;
+        width: auto;
+        margin-top: 1200px;
+    }
+
+    .bottom {
+        width: auto;
+
+    }
+
 }
